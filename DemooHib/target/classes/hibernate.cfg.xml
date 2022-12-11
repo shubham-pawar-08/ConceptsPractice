@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">992029</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/backend</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+        <property name="hbm2ddl.auto">update</property>
+        <property name="show_sql">true</property>
+        <property name="format_sql">true</property>
+        <mapping class ="com.maven.DemooHib.Asach"/>
+        <mapping class ="com.maven.DemooHib.Student"/>
+        <mapping class ="com.maven.DemooHib.Address"/>
+        <mapping class ="com.maven.DemooHib.Questions"/>
+        <mapping class ="com.maven.DemooHib.Answers"/>
+      <mapping class ="com.maven.DemooHib.Questions2OneToMany"/>
+        <mapping class ="com.maven.DemooHib.Answers2OneToMany"/>
+        <mapping class ="com.maven.DemooHib.EmpM2M"/>
+        <mapping class ="com.maven.DemooHib.ProjectM2M"/>
+        
+    </session-factory>  
+</hibernate-configuration>

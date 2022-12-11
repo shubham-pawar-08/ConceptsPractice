@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Welcome to my world </title>
+</head>
+<body>
+<h1>Let's do it !!</h1>
+<a href="start.html" id="link" name="linkname">click here</a>
+</body>
+</html>

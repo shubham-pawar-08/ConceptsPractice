@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>GET VS POST</title>
+</head>
+<body>
+<h1>ENTER DETAILS</h1>
+<a href="GetHandler?name=shubh&address=Here+only+at+144">Shubham add</a>
+<hr>
+<a href="GetServletConfig" id="link" name="linkname">Servlet config</a>
+<hr>
+<a href="dashboard?userid=asach">Account Dashboard</a>
+<br>
+<a href="profile?userid=asach1">Account profile</a>
+<br>
+<a href="dashboard"> Dashboard</a>
+<br>
+<a href="profile">Profile</a>
+<br>
+<a href="InfoPage">Info page</a>
+<br>
+
+
+<hr>
+<form action="PostHandler" method="post" name="frm">
+Enter Name : <input type="text" id=nameid name="attr" maxlength="20"/><br>
+Enter Address : <input type="text" id=addrid name="addattr" maxlength="100"/><br>
+
+<button> Submit </button>
+</form>
+</body>
+</html>
